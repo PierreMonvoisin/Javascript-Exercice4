@@ -1,9 +1,9 @@
 document.getElementById("submit").onclick = function() {message()};
 
 function message() {
-  let nom = document.getElementById("lastname");
-  let prénom = document.getElementById("firstname");
-  let ville = document.getElementById("city");
+  let nom = document.getElementById("lastname").value;
+  let prénom = document.getElementById("firstname").value;
+  let ville = document.getElementById("city").value;
 
-  alert('Nom : '+ lastName +'\nPrénom : '+ firstName +'\nVille : '+ city);
+  alert('Nom : '+ nom +'\nPrénom : '+ prénom +'\nVille : '+ ville);
 }
